@@ -7,7 +7,7 @@ variable "private_key" {}
 
 variable "aws_region" {}
 variable "network_address_space" {}
-variable "instance_type" {}
+variable "instance_size" {}
 variable "instance_count" {
   default = 1
 }
